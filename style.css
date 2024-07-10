@@ -80,7 +80,7 @@ html{
     color:gray;
 
 }
-.banner-section>button{
+.banner-section>a>button{
     border-radius: 8px;
     padding: 21px 24px ;
     text-align: center;
