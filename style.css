@@ -9,15 +9,13 @@ html{
     font-weight: <weight>;
     font-style: normal;
   }
-
+/* banner-top section start */
 .banner-top-section {
     width: 1440px;
     height: 130px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-   
-
 }
 .top-corner-text {
     color: rgb(13, 19, 33);
@@ -38,10 +36,10 @@ html{
     font-weight: 600;
     border-radius: 8px;
     opacity: 0.8;
-    
-
 }
-/* banner section */
+/* banner-top section start */
+
+/* banner section start*/
 .banner-section {
     width: 1440px;
     height: 652px;
@@ -89,7 +87,9 @@ html{
     background-color: black;
     cursor: pointer;
 }
-/* web development section */
+/* banner section end*/
+
+/* web development section start */
 .development-sections {
     width: 1140px;
     height: 1393px;
@@ -148,6 +148,9 @@ font-weight: 700;
     width: 50%;
     padding-left: 20px;
 }
+/* web development section end */
+
+/* my insparation section start */
 .my-insperation-section{
     width: 1140px;
     height: 777px;
@@ -156,6 +159,9 @@ font-weight: 700;
 .youtube-vedio{
     text-align: center;
 }
+/* my insparation section end */
+
+/* my-current-target-section start */
 .my-current-target-section{
     width: 1140px;
     height: 470px;
@@ -167,37 +173,61 @@ font-weight: 700;
     height: 299px;
 }
 .my-current-target-boxs{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
+
+/* my-current-target-section end */
+
+/* placeholder-section start */
 .placeholder-section{
     width: 1140px;
     height: 313px;
 margin: 0 auto;
-margin-top: 200px;
+margin-top: 80px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+background-color: rgb(0, 0, 0, .5);
 background-image: url(images/handsake.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+border-radius: 16px;
+color: white;
+background-blend-mode: overlay;
+padding: 64px auto;
+
 }
 .placeholder-section input {
-    width: 400px;
-    height: 50px;
+    width: 548px;
+    height: 57px;
     border: none;
     border-radius: 8px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-right: 15px;
+    padding-left: 20px;
   }
   #submit-btn {
     padding: 17px 24px 17px 24px;
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
-    opacity: 0.8;
+  
+    background-color: white;
+    border: none;
   }
+  .placehoder-button{
+    margin-bottom: 64px;
+  }
+  .placehoder-heading{
+    margin-top: 64px;
+  }
+  /* placeholder-section end */
+
+  /* footer and footer-icon section start */
   footer{
     width: 1140px;
     margin: 0 auto;
@@ -209,4 +239,6 @@ background-size: cover;
     }
 .icon img{
     margin-left: 20px;
+
 }
+  /* footer and footer-icon section end */
